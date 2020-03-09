@@ -17,13 +17,10 @@ class Cidadao {
         let rgLength = rg_array.length
         if (rgLength >= 2 && rgLength <= 4)
             rg_array.splice(2, 0, '.')
-            
         else if (rgLength >= 5 && rgLength <= 7) {
             rg_array.splice(2, 0, '.')
             rg_array.splice(6, 0, '.')
-            
         } else if (rgLength >= 8 && rgLength <= 9) {
-            
             rg_array.splice(2, 0, '.')
             rg_array.splice(6, 0, '.')
             rg_array.splice(10, 0, '-')
@@ -106,7 +103,3 @@ class Cidadao {
         this.senha = senha
     }
 }
-
-let citizen = new Cidadao('igor', '53.439.806-6')
-console.log(citizen)
-console.log(citizen.autoRg())
