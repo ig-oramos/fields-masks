@@ -1,8 +1,8 @@
 # Fields masks
-Este repositório visa disponibilizar um recurso de máscaras para campos
+<p>Este repositório visa disponibilizar um recurso de máscaras para campos
 HTML. Essas "máscaras" tem como objetivo auxiliar no preenchimento dos
 diversos campos HTML que possuem padrões predeterminados, como números
-de telefone, RGs, CPFs, entre outros.
+de telefone, RGs, CPFs, entre outros.</p>
 
 ### O projeto ainda está em construção
 
