@@ -11,3 +11,4 @@ de telefone, RGs, CPFs, entre outros.
 - [x] Máscara para CPFs
 - [x] Máscara para telefone
 - [x] Máscara para celular
+- [] Máscara para datas
