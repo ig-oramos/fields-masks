@@ -10,8 +10,8 @@ class Citizen {
     }
 
     autoRg() {
-        let rg_clean = this.getRg().replace(/[\.-]/g, '')
-        const rg_array = rg_clean.split('') // Quebra rg num array
+        let rg_cleaned = this.getRg().replace(/[\.-]/g, '')
+        const rg_array = rg_cleaned.split('')
         let rgLength = rg_array.length
         
         if (rgLength >= 2 && rgLength <= 4)
@@ -29,8 +29,8 @@ class Citizen {
     }
 
     autoCpf() {
-        let cpf_clean = this.getCpf().replace(/[\.-]/g, '')
-        const cpf_array = cpf_clean.split('') // Quebra rg num array
+        let cpf_cleaned = this.getCpf().replace(/[\.-]/g, '')
+        const cpf_array = cpf_cleaned.split('')
         let cpfLength = cpf_array.length
         
         if (cpfLength >= 3 && cpfLength <= 5)
@@ -48,8 +48,8 @@ class Citizen {
     }
 
     autoTelefone() {
-        let tell_clean = this.getTelefone().replace(/[-\(\)]/g, '')
-        const tell_array = tell_clean.split('') // Quebra rg num array       
+        let tell_cleaned = this.getTelefone().replace(/[-\(\)]/g, '')
+        const tell_array = tell_cleaned.split('')
         let tellLength = tell_array.length
         
         if (tellLength >= 0 && tellLength <= 1)
@@ -68,8 +68,8 @@ class Citizen {
     }
 
     autoCelular() {
-        let cell_clean = this.getCelular().replace(/[-\(\)]/g, '')
-        const cell_array = cell_clean.split('') // Quebra rg num array
+        let cell_cleaned = this.getCelular().replace(/[-\(\)]/g, '')
+        const cell_array = cell_cleaned.split('')
         let cellLength = cell_array.length
         
         if (cellLength >= 0 && cellLength <= 1)
